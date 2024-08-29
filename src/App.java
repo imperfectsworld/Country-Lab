@@ -96,7 +96,7 @@ public class App {
             }
 
         }
-
+System.out.println(String.format("%s has been added to %s's visited countries.", response_country,response_name));
     }
 
     public static void choice3(ArrayList<String> names, ArrayList<HashSet<String>> countries) {
